@@ -1,7 +1,7 @@
 import csv
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.ERROR, format='%(levelname)s: %(message)s')
 
 def processLog(filePath):
     totalFish = 0
